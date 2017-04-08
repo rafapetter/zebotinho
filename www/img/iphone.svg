@@ -1,0 +1,23 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px" width="416.3px" height="874.9px" viewBox="0 0 416.3 874.9" style="overflow:scroll;enable-background:new 0 0 416.3 874.9;" xml:space="preserve">
+    <style type="text/css">
+            .st0{fill:#FDFDFD;stroke:#7E89A3;stroke-width:2;}
+            .st1{fill:#FFFFFF;stroke:#7E89A3;}
+            .st2{fill:none;stroke:#7E89A3;}
+    </style>
+    <defs>
+    </defs>
+    <g id="Page-1_2_">
+      <g id="iphone_1_" transform="translate(576.000000, 177.000000)">
+          <path id="bezel_1_" class="st0" d="M-160.7,645.9c0,28.2-22.9,51-51.2,51h-312
+                  c-28.3,0-51.2-22.8-51.2-51v-771c0-28.2,22.9-51,51.2-51h312c28.3,0,51.2,22.8,51.2,51V645.9L-160.7,645.9z"/>
+          <rect id="screen_1_" x="-546.3" y="-61.5" class="st1" width="356.8" height="634.5">
+          </rect>
+          <path id="speaker_1_" class="st2" d="M-329.6-94.2c0,2-1.4,3.7-3.1,3.7h-64.1c-1.7,0-3.1-1.6-3.1-3.7
+                  v-8.2c0-2,1.4-3.7,3.1-3.7h64.1c1.7,0,3.1,1.6,3.1,3.7V-94.2L-329.6-94.2z"/>
+          <circle id="camera_2_" class="st2" cx="-364.6" cy="-138" r="9.6">
+          </circle>
+          <ellipse id="lock_2_" class="st2" cx="-367.7" cy="633.3" rx="32" ry="31.9">
+          </ellipse>
+      </g>
+    </g>
+  </svg>

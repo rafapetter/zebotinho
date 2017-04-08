@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Zé Botinho</title>
+  <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/jquery.fullPage.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <nav id="navbar">
+      <a href="#" class="logo"><img src="img/logo2.png" alt="ZeBotinho"></a>
+      <ul id="mainMenu">
+        <li>
+          <a href="https://www.messenger.com/t/186902928491729/" target="_blank" rel="noopener" style="border: 2px solid #e0c436; border-radius: 10px;font-size:22px">Converse Agora</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main id="fullpage">
+    <section id="banner" class="section">
+      <div class="container">
+        
+        <h1 style="font-size: 40px;margin-top: 150px">Seu amigo virtual para te acompanhar no controle da asma.</h1>
+        <br/>
+
+        <div id="device">
+          <video id="video" src="img/chat-working.mp4" autoplay loop></video>
+          <img src="img/iphone.svg" alt="Imagem de celular com o chat aberto" id="deviceFrame">
+        </div>
+      </div>
+    </section>
+
+    <section id="quickDescription" class="section">
+      <div class="container">
+
+        <div class="row">
+          <figure>
+            <img src="img/idea.svg" alt="idea.svg">
+          </figure>
+          <div>
+            <h1>Calma</h1>
+
+            <p>Não se preocupe, você não está sozinho nessa. Milhões de pessoas passam pelo mesmo problema. O Zé Botinho está aqui para te ajudar.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="first" class="section">
+      <div class="container">
+        <div>
+          <h1 style="text-align: center">Acompanhamento</h1>
+          <p  style="text-align: center">Prevenção aos fatores críticos da Asma</p>
+        </div>
+        <div class="row align-start">
+
+          <div class="figure-wrapper">
+            <figure>
+              <img src="img/validate.svg" alt="Idea">
+            </figure>
+            <figcaption class="captionPadding">O Zé quer te orientar melhor no uso correto da medicação de controle</figcaption>
+          </div>
+
+          <div class="figure-wrapper">
+            <figure>
+              <img src="img/form.svg" alt="Idea">
+            </figure>
+            <figcaption class="captionPadding">Poluição do Ar é um grande inimigo. Lembre de usar umidificadores de ar no quarto pra dormir ou um balde com água perto da cama em dias secos</figcaption>
+          </div>
+
+          <div class="figure-wrapper">
+            <figure>
+              <img src="img/comunic.svg" alt="Idea">
+            </figure>
+            <figcaption class="captionPadding">Evite cigarros. Uso inaladores com berotec e atrovent</figcaption>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="data" class="section">
+      <div class="container">
+        <div class="row">
+          <figure>
+            <img src="img/statistics.svg" alt="Idea">
+          </figure>
+          <div>
+
+          <h1>Boas Práticas</h1>
+          <p>Às suas ordens. O BotUp pode te mostrar as tendências de mercado e segmentos de negócios. Tudo para que você possa ter certeza de que está indo na direção certa.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="equipe" class="section">
+      <div class="container" >
+        <h1 style="text-align: center;">Equipe</h1>
+        <ul class="" style="margin: 0 auto !important;">
+          <li>
+            <img src="img/morgan.jpeg" alt="Morgan">
+            <span>Morgan Dierstein</span>
+          </li>
+          <li>
+            <img src="img/rafael.jpeg" alt="Rafael Pettersen">
+            <span>Rafael Pettersen</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+  <script src="js/jquery-3.2.0.min.js" charset="utf-8"></script>
+  <script src="js/jquery.fullPage.min.js" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('#fullpage').fullpage({
+        //Navigation
+        anchors: ['inicio', 'ideia', 'facilitador', 'estatisticas', 'time'],
+        navigation: true,
+        navigationPosition: 'right',
+        navigationTooltips: ['Início', 'Ideia', 'Facilitador', 'Estatísticas', 'Equipe']
+      });
+    });
+    var video = document.getElementById('video');
+    setTimeout(function () {
+      video.play()
+    }, 300);
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+section {
+  padding-top: 15vh;
+  color: #455a64;
+}
+
+#canvas {
+  border: 2px solid #607D8B;
+  width: 75vw;
+  margin: auto;
+  height: 80vh;
+}
+
+
+.row {
+  display: flex;
+}
+
+.row .col {
+  flex: 20% 0 0;
+  height: 60vh; 
+  display: flex;
+  flex-direction: column;
+}
+
+.row.row-50 .col {
+  flex: 50% 0 0;
+  height: 20vh;  
+  display: flex;
+  flex-direction: column;
+}
+
+
+#key-partners,
+#key-activities,
+#key-resources,
+#value-proposition,
+#customer-relations,
+#channels,
+#customer-segments
+ {
+  flex-grow: 1;
+  padding: 10px;
+  border: 2px solid #607D8B;
+}
+
+#cost-structure,
+#revenue-streams {
+  flex-grow: 1;
+  padding: 10px;
+  border: 2px solid #607D8B;
+}
+
+#key-partners,
+#key-activities,
+#key-resources,
+#value-proposition,
+#customer-relations,
+#channels,
+#customer-segments,
+#cost-structure,
+#revenue-streams {
+  background: #fff;
+}
+
+
+#key-partners ul li,
+#key-activities ul li,
+#key-resources ul li,
+#value-proposition ul li,
+#customer-relations ul li,
+#channels ul li,
+#customer-segments ul li,
+#cost-structure ul li,
+#revenue-streams  ul li {
+  list-style: none;
+  background: #fff;
+  border-radius: 1000px;
+  padding: 4px 8px;
+  margin-top: 8px;
+}
+
+
