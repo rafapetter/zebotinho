@@ -163,7 +163,7 @@ a {
 section {
   /*background: radial-gradient(farthest-corner at 45px 45px, orange, red);*/
   /*background: #12477B;*/
-  background: radial-gradient(farthest-corner at -10% -10%, #1a87b1, #9c8e43);
+  background: radial-gradient(farthest-corner at -10% -10%, #1a87b1, #9C8E8C);
   height: 100vh;
 }
 
