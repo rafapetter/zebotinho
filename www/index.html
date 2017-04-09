@@ -29,7 +29,6 @@
         <br/>
 
         <div id="device">
-          <video id="video" src="img/chat-working.mp4" autoplay loop></video>
           <img src="img/iphone.svg" alt="Imagem de celular com o chat aberto" id="deviceFrame">
         </div>
       </div>
@@ -40,7 +39,7 @@
 
         <div class="row">
           <figure>
-            <img src="img/botinho4.png" alt="idea.svg">
+            <img src="img/botinho4.png" alt="">
           </figure>
           <div>
             <h1>Calma</h1>
@@ -61,21 +60,21 @@
 
           <div class="figure-wrapper">
             <figure>
-              <img src="img/botinho5.png" alt="Idea">
+              <img src="img/botinho5.png" alt="">
             </figure>
             <figcaption class="captionPadding">O Zé quer te orientar melhor no uso correto da medicação de controle</figcaption>
           </div>
 
           <div class="figure-wrapper">
             <figure>
-              <img src="img/botinho1.png" alt="Idea">
+              <img src="img/botinho1.png" alt="">
             </figure>
             <figcaption class="captionPadding">Poluição do Ar é um grande inimigo. Lembre de usar umidificadores de ar no quarto pra dormir ou um balde com água perto da cama em dias secos</figcaption>
           </div>
 
           <div class="figure-wrapper">
             <figure>
-              <img src="img/botinho2.png" alt="Idea">
+              <img src="img/botinho2.png" alt="">
             </figure>
             <figcaption class="captionPadding">Evite cigarros. Uso inaladores com berotec e atrovent</figcaption>
           </div>
@@ -87,7 +86,7 @@
       <div class="container">
         <div class="row">
           <figure>
-            <img src="img/form.svg" alt="Idea">
+            <img src="img/form.svg" alt="">
           </figure>
           <div>
 
@@ -121,16 +120,12 @@
     $(document).ready(function () {
       $('#fullpage').fullpage({
         //Navigation
-        anchors: ['inicio', 'ideia', 'facilitador', 'estatisticas', 'time'],
+        anchors: ['inicio', 'calma', 'acompanhamento', 'praticas', 'time'],
         navigation: true,
         navigationPosition: 'right',
-        navigationTooltips: ['Início', 'Ideia', 'Facilitador', 'Estatísticas', 'Equipe']
+        navigationTooltips: ['Início', 'Calma', 'Acompanhamento', 'Boas Práticas', 'Equipe']
       });
     });
-    var video = document.getElementById('video');
-    setTimeout(function () {
-      video.play()
-    }, 300);
   </script>
 </body>
 
